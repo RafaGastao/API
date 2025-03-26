@@ -51,3 +51,36 @@ Endpoint para cadastro das informações do livro doado.
     "imagem_url":"https://exemplo.com"
 }
 ```
+**Resposta (201):**
+json
+{
+    "mensagem":"Livro cadastrado com sucesso!"
+}
+
+
+---
+
+### GET /livros
+
+O endpoint /livros retorna todos os livros cadastrados na API.
+
+**Resposta (200):**
+json
+{
+    "id":"1",
+    "titulo":"Ainda estou devendo aqui",
+    "categoria":"Finanças",
+    "autor":"Fernando Polia",
+    "image_url":"https://exemplo.com"
+}
+
+---
+
+##  Tecnologias utilizadas
+
+- Python 3
+- Flask
+- SQLite
+- Flask-CORS
+
+---
